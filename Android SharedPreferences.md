@@ -1,3 +1,4 @@
+# SharedPreferences
 Android 五种数据存储的方式分别为：
 1. SharedPreferences：以Map形式存放简单的配置参数；
 2. ContentProvider：将应用的私有数据提供给其他应用使用；
