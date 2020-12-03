@@ -1,4 +1,5 @@
- Activity作为四大组件之一，出现的频率相当高，基本上我们在android的各个地方都能看见它的踪影，因此深入了解Activity，对于开发高质量应用程序是很有帮助的。今天我们就来详细地聊聊Activity的生命周期，以便我们在以后的开发中能如鱼得水。
+ # Activity 生命周期浅析
+ Activity作为四大组件之一，出现的频率相当高，基本上我们在android的各个地方都能看见它的踪影，因此深入了解Activity，对于开发高质量应用程序是很有帮助的。今天我们就来详细地聊聊Activity的生命周期，以便我们在以后的开发中能如鱼得水。
 
 一、初识Activity
   在日常应用中Activity是与用户交互的接口，它提供了一个用户完成相关操作的窗口。当我们在开发中创建Activity后，通过调用setContentView(View)方法来给该Activity指定一个布局界面，而这个界面就是提供给用户交互的接口。Android系统中是通过Activity栈的方式来管理Activity的，而Activity自身则是通过生命周期的方法来管理的自己的创建与销毁，既然如此，现在我们就来看看Activity生命周期是如何运作的。
